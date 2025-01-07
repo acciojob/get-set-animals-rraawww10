@@ -23,3 +23,7 @@ class Dog extends Animal {
     console.log("woof");
   }
 }
+
+// Attach the classes to the window object
+window.Cat = Cat;
+window.Dog = Dog;
